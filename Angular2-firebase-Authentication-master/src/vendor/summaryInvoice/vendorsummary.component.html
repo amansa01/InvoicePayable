@@ -1,0 +1,13 @@
+
+<table *ngIf="items" class="container-fluid" class="table table-bordered">
+  <tr>
+    <!--<th>Sno</th>-->
+    <th>Received Amount</th><td>{{items.paidAmount}}</td></tr>
+  <tr>
+    <th>Invoice Paid</th>    <td>{{items.paidInvoice}}</td></tr>
+  <tr><th>Pending Amount</th>   <td>{{items.pendingAmount}}</td></tr>
+    <tr><th>Pending Invoice</th> <td>{{items.pendingInvoice}}</td>
+
+  </tr>
+
+</table>

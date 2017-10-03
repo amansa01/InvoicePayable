@@ -1,0 +1,151 @@
+2017-10-03 10:23:53,116 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-10-03 10:23:58,384 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-10-03 10:24:00,144 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-10-03 10:24:18,083 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-10-03 10:24:18,180 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.4.0.Final
+2017-10-03 10:24:18,186 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.4.0.Final
+2017-10-03 10:24:18,545 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-10-03 10:24:18,562 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2017-10-03 10:24:18,539 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-10-03 10:24:18,613 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2017-10-03 10:24:18,612 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2017-10-03 10:24:18,611 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-10-03 10:24:18,663 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2017-10-03 10:24:18,727 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2017-10-03 10:24:18,781 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2017-10-03 10:24:20,050 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.21.Final
+2017-10-03 10:24:20,115 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 1.4.0.Final starting
+2017-10-03 10:24:20,450 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/amans/Downloads/Wildfly/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-10-03 10:24:20,853 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2017-10-03 10:24:20,856 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2017-10-03 10:24:20,948 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-10-03 10:24:20,950 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-10-03 10:24:22,541 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-10-03 10:24:22,540 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2017-10-03 10:24:25,328 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 6.0)
+2017-10-03 10:24:25,329 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = mysql
+2017-10-03 10:24:22,640 INFO  [com.arjuna.ats.jbossatx] (MSC service thread 1-5) ARJUNA032010: JBossTS Recovery Service (tag: c5912) - JBoss Inc.
+2017-10-03 10:24:25,631 INFO  [com.arjuna.ats.jbossatx] (MSC service thread 1-5) ARJUNA032013: Starting transaction recovery manager
+2017-10-03 10:24:25,695 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2017-10-03 10:24:26,082 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2017-10-03 10:24:26,080 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2017-10-03 10:24:27,021 INFO  [com.arjuna.ats.jbossatx] (MSC service thread 1-5) ARJUNA032017: JBossTS Transaction Service (JTA version - tag: c5912) - JBoss Inc.
+2017-10-03 10:24:27,080 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-5) WFLYDM0111: Keystore /home/amans/Downloads/Wildfly/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2017-10-03 10:24:27,094 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory /home/amans/Downloads/Wildfly/wildfly-10.1.0.Final/standalone/deployments
+2017-10-03 10:24:27,176 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "Rest.war" (runtime-name: "Rest.war")
+2017-10-03 10:24:27,176 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "invoicepayable-0.0.1-SNAPSHOT.war" (runtime-name: "invoicepayable-0.0.1-SNAPSHOT.war")
+2017-10-03 10:24:27,559 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-10-03 10:24:27,559 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/TRAINEEE]
+2017-10-03 10:24:28,884 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+2017-10-03 10:24:30,568 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2017-10-03 10:24:31,612 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-10-03 10:24:31,618 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-10-03 10:24:31,619 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-10-03 10:24:31,619 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-10-03 10:24:31,611 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-10-03 10:24:31,626 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-10-03 10:24:40,027 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2017-10-03 10:24:44,479 INFO  [stdout] (ServerService Thread Pool -- 65) In DateTue Oct 03 10:24:44 IST 2017
+2017-10-03 10:24:45,136 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0021: Registered web context: /Rest
+2017-10-03 10:24:45,963 INFO  [stdout] (pool-4-thread-1)  In Timer Class at Tue Oct 03 10:24:45 IST 2017
+2017-10-03 10:24:45,964 INFO  [stdout] (pool-4-thread-1) In Test
+2017-10-03 10:24:45,967 INFO  [com.alacriti.invoice.delegate.VendorDelegate] (pool-4-thread-1) In MAiltoSend Delegate
+2017-10-03 10:24:45,967 INFO  [com.alacriti.invoice.delegate.VendorDelegate] (pool-4-thread-1) In MAiltoSend Delegate
+2017-10-03 10:24:45,979 INFO  [com.alacriti.invoice.bo.impl.VendorBo] (pool-4-thread-1) In mailToVendorBo
+2017-10-03 10:24:45,979 INFO  [com.alacriti.invoice.bo.impl.VendorBo] (pool-4-thread-1) In mailToVendorBo
+2017-10-03 10:24:45,980 INFO  [com.alacriti.invoice.dao.impl.VendorDao] (pool-4-thread-1) In mail to Vendor DAO
+2017-10-03 10:24:45,980 INFO  [com.alacriti.invoice.dao.impl.VendorDao] (pool-4-thread-1) In mail to Vendor DAO
+2017-10-03 10:24:45,998 INFO  [com.alacriti.invoice.delegate.InvoiceDelegate] (pool-4-thread-1) No Payments Received In Last 5 Hours
+2017-10-03 10:24:45,998 INFO  [com.alacriti.invoice.delegate.InvoiceDelegate] (pool-4-thread-1) No Payments Received In Last 5 Hours
+2017-10-03 10:24:48,439 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 65) RESTEASY002225: Deploying javax.ws.rs.core.Application: class com.alacriti.invoice.resteasy.app.InvoicePayable
+2017-10-03 10:24:48,595 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 65) HV000001: Hibernate Validator 5.2.4.Final
+2017-10-03 10:24:49,778 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0021: Registered web context: /invoicepayable-0.0.1-SNAPSHOT
+2017-10-03 10:24:49,793 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "Rest.war" (runtime-name : "Rest.war")
+2017-10-03 10:24:49,794 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "invoicepayable-0.0.1-SNAPSHOT.war" (runtime-name : "invoicepayable-0.0.1-SNAPSHOT.war")
+2017-10-03 10:24:49,969 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-10-03 10:24:49,970 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-10-03 10:24:49,971 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 59677ms - Started 480 of 736 services (416 services are lazy, passive or on-demand)
+2017-10-03 10:25:25,620 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location /home/amans/Downloads/Wildfly/wildfly-10.1.0.Final/standalone/data/content/b2/8b4be62c8542fdd39021118a7890b2d0d30108/content
+2017-10-03 10:25:25,637 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0022: Unregistered web context: /invoicepayable-0.0.1-SNAPSHOT
+2017-10-03 10:25:25,666 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment invoicepayable-0.0.1-SNAPSHOT.war (runtime-name: invoicepayable-0.0.1-SNAPSHOT.war) in 42ms
+2017-10-03 10:25:25,667 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "invoicepayable-0.0.1-SNAPSHOT.war" (runtime-name: "invoicepayable-0.0.1-SNAPSHOT.war")
+2017-10-03 10:25:28,664 INFO  [stdout] (ServerService Thread Pool -- 72) In DateTue Oct 03 10:25:28 IST 2017
+2017-10-03 10:25:28,673 INFO  [stdout] (pool-6-thread-1)  In Timer Class at Tue Oct 03 10:25:28 IST 2017
+2017-10-03 10:25:28,673 INFO  [stdout] (pool-6-thread-1) In Test
+2017-10-03 10:25:28,676 INFO  [com.alacriti.invoice.delegate.VendorDelegate] (pool-6-thread-1) In MAiltoSend Delegate
+2017-10-03 10:25:28,676 INFO  [com.alacriti.invoice.delegate.VendorDelegate] (pool-6-thread-1) In MAiltoSend Delegate
+2017-10-03 10:25:28,685 INFO  [com.alacriti.invoice.bo.impl.VendorBo] (pool-6-thread-1) In mailToVendorBo
+2017-10-03 10:25:28,685 INFO  [com.alacriti.invoice.bo.impl.VendorBo] (pool-6-thread-1) In mailToVendorBo
+2017-10-03 10:25:28,686 INFO  [com.alacriti.invoice.dao.impl.VendorDao] (pool-6-thread-1) In mail to Vendor DAO
+2017-10-03 10:25:28,686 INFO  [com.alacriti.invoice.dao.impl.VendorDao] (pool-6-thread-1) In mail to Vendor DAO
+2017-10-03 10:25:28,694 INFO  [com.alacriti.invoice.delegate.InvoiceDelegate] (pool-6-thread-1) No Payments Received In Last 5 Hours
+2017-10-03 10:25:28,694 INFO  [com.alacriti.invoice.delegate.InvoiceDelegate] (pool-6-thread-1) No Payments Received In Last 5 Hours
+2017-10-03 10:25:28,705 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 72) RESTEASY002225: Deploying javax.ws.rs.core.Application: class com.alacriti.invoice.resteasy.app.InvoicePayable
+2017-10-03 10:25:28,741 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0021: Registered web context: /invoicepayable-0.0.1-SNAPSHOT
+2017-10-03 10:25:28,782 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "invoicepayable-0.0.1-SNAPSHOT.war" with deployment "invoicepayable-0.0.1-SNAPSHOT.war"
+2017-10-03 10:25:28,784 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location /home/amans/Downloads/Wildfly/wildfly-10.1.0.Final/standalone/data/content/27/55c3e6b2ef10d155b968ba3217c73a9bd02749/content
+2017-10-03 10:30:04,682 INFO  [com.alacriti.invoice.delegate.InvoiceDelegate] (default task-3) In Total vendor  Delegate
+2017-10-03 10:30:04,683 INFO  [com.alacriti.invoice.bo.impl.InvoiceBo] (default task-4) In getInvoiceInfo Bo 
+2017-10-03 10:30:04,682 INFO  [com.alacriti.invoice.delegate.InvoiceDelegate] (default task-3) In Total vendor  Delegate
+2017-10-03 10:30:04,683 INFO  [com.alacriti.invoice.bo.impl.InvoiceBo] (default task-4) In getInvoiceInfo Bo 
+2017-10-03 10:30:04,718 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-4) getAllInvoiceDetailsBO
+2017-10-03 10:30:04,718 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-4) getAllInvoiceDetailsBO
+2017-10-03 10:30:04,718 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-3) In totalCountForAdminDao
+2017-10-03 10:30:04,718 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-3) In totalCountForAdminDao
+2017-10-03 10:30:07,187 INFO  [com.alacriti.invoice.bo.impl.InvoiceBo] (default task-5) In getInvoiceInfo Bo 
+2017-10-03 10:30:07,187 INFO  [com.alacriti.invoice.bo.impl.InvoiceBo] (default task-5) In getInvoiceInfo Bo 
+2017-10-03 10:30:07,189 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-5) getAllInvoiceDetailsBO
+2017-10-03 10:30:07,189 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-5) getAllInvoiceDetailsBO
+2017-10-03 10:30:08,863 INFO  [com.alacriti.invoice.delegate.InvoiceDelegate] (default task-7) In getInvoiceSummary
+2017-10-03 10:30:08,863 INFO  [com.alacriti.invoice.delegate.InvoiceDelegate] (default task-7) In getInvoiceSummary
+2017-10-03 10:30:08,864 INFO  [com.alacriti.invoice.bo.impl.InvoiceBo] (default task-7) In getAdminInvoiceSummaryBO
+2017-10-03 10:30:08,864 INFO  [com.alacriti.invoice.bo.impl.InvoiceBo] (default task-7) In getAdminInvoiceSummaryBO
+2017-10-03 10:30:08,864 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-7) In getAdminInvoiceSummaryDao
+2017-10-03 10:30:08,864 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-7) In getAdminInvoiceSummaryDao
+2017-10-03 10:30:08,865 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-7) getAdminInvoiceSummaryDao2
+2017-10-03 10:30:08,865 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-7) getAdminInvoiceSummaryDao2
+2017-10-03 10:30:10,218 INFO  [com.alacriti.invoice.delegate.VendorDelegate] (default task-9) In Total vendor  Delegate
+2017-10-03 10:30:10,218 INFO  [com.alacriti.invoice.delegate.VendorDelegate] (default task-9) In Total vendor  Delegate
+2017-10-03 10:30:10,219 INFO  [com.alacriti.invoice.bo.impl.VendorBo] (default task-9) In Total Vendors Bo 
+2017-10-03 10:30:10,219 INFO  [com.alacriti.invoice.bo.impl.VendorBo] (default task-9) In Total Vendors Bo 
+2017-10-03 10:30:10,219 INFO  [com.alacriti.invoice.dao.impl.VendorDao] (default task-9) In totalVendor DAO
+2017-10-03 10:30:10,219 INFO  [com.alacriti.invoice.dao.impl.VendorDao] (default task-9) In totalVendor DAO
+2017-10-03 10:30:10,229 INFO  [com.alacriti.invoice.delegate.VendorDelegate] (default task-10) In vendorListDelegate
+2017-10-03 10:30:10,229 INFO  [com.alacriti.invoice.delegate.VendorDelegate] (default task-10) In vendorListDelegate
+2017-10-03 10:30:10,229 INFO  [com.alacriti.invoice.bo.impl.VendorBo] (default task-10) In VendorBo
+2017-10-03 10:30:10,229 INFO  [com.alacriti.invoice.bo.impl.VendorBo] (default task-10) In VendorBo
+2017-10-03 10:30:10,229 INFO  [com.alacriti.invoice.dao.impl.VendorDao] (default task-10) In vendor DAO
+2017-10-03 10:30:10,229 INFO  [com.alacriti.invoice.dao.impl.VendorDao] (default task-10) In vendor DAO
+2017-10-03 10:30:11,365 INFO  [com.alacriti.invoice.delegate.InvoiceDelegate] (default task-11) In getInvoiceSummary
+2017-10-03 10:30:11,365 INFO  [com.alacriti.invoice.delegate.InvoiceDelegate] (default task-11) In getInvoiceSummary
+2017-10-03 10:30:11,366 INFO  [com.alacriti.invoice.bo.impl.InvoiceBo] (default task-11) In getInvoiceVendorSummaryBO
+2017-10-03 10:30:11,366 INFO  [com.alacriti.invoice.bo.impl.InvoiceBo] (default task-11) In getInvoiceVendorSummaryBO
+2017-10-03 10:30:11,367 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-11) getVendorInvoiceSummaryDao
+2017-10-03 10:30:11,367 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-11) getVendorInvoiceSummaryDao
+2017-10-03 10:30:11,369 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-11) getVendorInvoiceSummaryDao2
+2017-10-03 10:30:11,369 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-11) getVendorInvoiceSummaryDao2
+2017-10-03 10:30:18,849 INFO  [com.alacriti.invoice.delegate.InvoiceDelegate] (default task-14) SearchInvoiceDelegate
+2017-10-03 10:30:18,849 INFO  [com.alacriti.invoice.delegate.InvoiceDelegate] (default task-14) SearchInvoiceDelegate
+2017-10-03 10:30:18,850 INFO  [com.alacriti.invoice.bo.impl.InvoiceBo] (default task-14) In Total Search Bo
+2017-10-03 10:30:18,850 INFO  [com.alacriti.invoice.bo.impl.InvoiceBo] (default task-14) In Total Search Bo
+2017-10-03 10:30:18,851 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-14) searchAllInvoiceDetailsDao
+2017-10-03 10:30:18,851 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-14) searchAllInvoiceDetailsDao
+2017-10-03 10:30:18,852 INFO  [stdout] (default task-14) In Dao Search element1
+2017-10-03 10:30:18,865 INFO  [com.alacriti.invoice.bo.impl.InvoiceBo] (default task-15) In Search Invoice DetailsBo
+2017-10-03 10:30:18,865 INFO  [com.alacriti.invoice.bo.impl.InvoiceBo] (default task-15) In Search Invoice DetailsBo
+2017-10-03 10:30:18,865 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-15) searchAllInvoiceDetailsDao
+2017-10-03 10:30:18,865 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-15) searchAllInvoiceDetailsDao
+2017-10-03 10:30:18,866 INFO  [stdout] (default task-15) In Dao Search element1
+2017-10-03 10:30:21,490 INFO  [com.alacriti.invoice.bo.impl.InvoiceBo] (default task-17) In Search Invoice DetailsBo
+2017-10-03 10:30:21,490 INFO  [com.alacriti.invoice.bo.impl.InvoiceBo] (default task-17) In Search Invoice DetailsBo
+2017-10-03 10:30:21,490 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-17) searchAllInvoiceDetailsDao
+2017-10-03 10:30:21,490 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-17) searchAllInvoiceDetailsDao
+2017-10-03 10:30:21,491 INFO  [stdout] (default task-17) In Dao Search element1
+2017-10-03 10:30:28,520 INFO  [com.alacriti.invoice.delegate.InvoiceDelegate] (default task-18) In Total vendor  Delegate
+2017-10-03 10:30:28,520 INFO  [com.alacriti.invoice.delegate.InvoiceDelegate] (default task-18) In Total vendor  Delegate
+2017-10-03 10:30:28,521 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-18) In totalCountForAdminDao
+2017-10-03 10:30:28,521 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-18) In totalCountForAdminDao
+2017-10-03 10:30:28,530 INFO  [com.alacriti.invoice.bo.impl.InvoiceBo] (default task-19) In getInvoiceInfo Bo 
+2017-10-03 10:30:28,530 INFO  [com.alacriti.invoice.bo.impl.InvoiceBo] (default task-19) In getInvoiceInfo Bo 
+2017-10-03 10:30:28,531 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-19) getAllInvoiceDetailsBO
+2017-10-03 10:30:28,531 INFO  [com.alacriti.invoice.dao.impl.InvoiceDao] (default task-19) getAllInvoiceDetailsBO

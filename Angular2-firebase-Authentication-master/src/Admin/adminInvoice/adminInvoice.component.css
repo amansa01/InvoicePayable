@@ -1,0 +1,9 @@
+
+#pagination{
+  style:"word-spacing: 30px";
+  display: inline;
+}
+
+button[disabled]{
+background: #dd2200;;
+}

@@ -1,0 +1,43 @@
+/*tatable, th, td {*/
+  /*padding:.75rem;*/
+  /*margin-bottom:1rem;*/
+  /*margin-top:2rem;*/
+  /*padding-left:5px;*/
+  /*background-color:#fff;*/
+  /*border-top:1px solid #eceeef;*/
+  /*border-bottom:2px solid #eceeef;*/
+/*}*/
+/*table, th, td {*/
+  /*border: 1px solid black;*/
+/*}*/
+/*ble, th, td {*/
+  /*padding:.75rem;*/
+  /*margin-bottom:1rem;*/
+  /*margin-top:2rem;*/
+  /*padding-left:5px;*/
+  /*background-color:#fff;*/
+  /*border-top:1px solid #eceeef;*/
+  /*border-bottom:2px solid #eceeef;*/
+/*}*/
+/*table, th, td {*/
+  /*border: 1px solid black;*/
+/*}*/
+/*#invoiceButton{*/
+  /*color: aqua;*/
+/*}*/
+/*#invoiceButton:disabled,*/
+/*#invoiceButton[disabled]{*/
+  /*border: 1px solid #999999;*/
+  /*background-color:crimson;*/
+  /*color: #666666;*/
+/*}*/
+
+/*.container-fluid{*/
+  /*margin:auto 10%*/
+/*}*/
+
+#pagination{
+  style:"word-spacing: 30px";
+  display: inline;
+
+}

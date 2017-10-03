@@ -1,0 +1,91 @@
+<div class="container">
+  <h3>Select A File To Create vendors</h3>
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <!--<div class="form-group">-->
+    <!--<label for="name">Name</label>-->
+    <!--<input type="text" class="form-control" id="name" placeholder="Bob" formControlName="name">-->
+    <!--</div>-->
+    <div class="form-group" id="uploadFile">
+      <!--<label for="avatar">Avatar</label>-->
+      <input type="file" id="avatar" accept=".csv" enctype="multipart/form-data" (change)="onFileChange($event)"
+             #fileInput>
+      <button type="button" class="btn btn-sm btn-default" (click)="clearFile()">clear file</button>
+    </div>
+    <button id="uploadFileButton" type="submit" [disabled]="form.invalid || loading" class="btn btn-success"
+            data-toggle="modal" data-target="#formModal">Submit <i
+      class="fa fa-spinner fa-spin fa-fw" *ngIf="loading"></i></button>
+  </form>
+</div>
+  <!------form modal start here---->
+  <div class="modal fade" id="formModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <table>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>ContactNo</th>
+              <!--<th>Password</th>-->
+              <!--<th>Status</th>-->
+              <th>Select</th>
+            </tr>
+            <tr *ngFor="let item of items; let i = index">
+
+              <td>{{item.name}}</td>
+              <td>{{item.email}}</td>
+              <td>{{item.contactNo}}</td>
+              <!--<td>{{item.password}}</td>-->
+              <!--<td>{{item.status}}</td>-->
+              <td>
+                <input type='checkbox' (change)="updateChecked2(i)" [disabled]="item.status =='false'" style='height:15px; width:15px;' >
+                  <!--<input type='checkbox' (change)="updateChecked2(i,$event)" [disabled]="item.status =='false'" style='height:15px; width:15px;' >-->
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" (click)="createVendor()">CreateVendors</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+<!--<div class="container">-->
+  <!--<h2>Form control: checkbox</h2>-->
+
+<!--<button type="submit" (click)="save()">Show History</button>-->
+<!--<table (input)="checkbox ">-->
+  <!--<tr>-->
+  <!--<th>Name</th>-->
+  <!--<th>Ip</th>-->
+  <!--<th>Uname</th>-->
+  <!--<th>Password</th>-->
+    <!--&lt;!&ndash;<th>Status</th>&ndash;&gt;-->
+    <!--<th>Select</th>-->
+  <!--</tr>-->
+  <!--<tr *ngFor="let item of items1; let i = index">-->
+
+    <!--<td>{{item.name}}</td>-->
+    <!--<td>{{item.ip}}</td>-->
+    <!--<td>{{item.uname}}</td>-->
+    <!--<td>{{item.password}}</td>-->
+    <!--&lt;!&ndash;<td>{{item.status}}</td>&ndash;&gt;-->
+    <!--<td>-->
+      <!--<input type='checkbox' (change)="updateChecked2(i)" [disabled]="item.status =='false'" style='height:15px; width:15px;' >-->
+    <!--</td>-->
+  <!--</tr>-->
+
+<!--</table>-->
+  <!--&lt;!&ndash;<button class="btn btn-danger pull-right" (click) ="deleteRecipients()">Delete Recipients</button>&ndash;&gt;-->
+<!--</div>-->
+

@@ -1,0 +1,118 @@
+<form class="navbar-form" [formGroup]="searchVendorForm" (ngSubmit)="onVendorSearch()" >
+  <div class="col-sm-12">
+    <div class="input-group col-sm-4">
+      <input type="text" class=" input-group form-control" placeholder="Search" formControlName="text"></div>
+    <div class="input-group ">
+      <button class="btn btn-default" type="submit" data-toggle="modal"
+              data-target="#searchResult">
+        <i class="glyphicon glyphicon-search"></i>
+      </button>
+    </div>
+  </div>
+</form>
+
+<table *ngIf="pageList" class="container-fluid" class="table table-bordered">
+  <tr>
+
+    <th>Name</th>
+    <th>Email</th>
+    <th>Contact No</th>
+  </tr>
+
+  <tr *ngFor="let item of pageList  let i=index;">
+
+
+    <td (click)="vendorDetails(item.email)" data-toggle="modal"
+        data-target="#myModal">{{item.name}}
+    </td>
+    <td (click)="vendorDetails(item.email)" data-toggle="modal"
+        data-target="#myModal">{{item.email}}
+    </td>
+    <td>{{item.contactNo}}</td>
+
+  </tr>
+
+
+</table>
+
+<ul>
+  <<<
+  <li id="pagination" *ngFor="let num of paginationArrayForInvoice" (click)="loadVendorList(num)"><a> {{num}}</a></li>
+  >>>
+</ul>
+
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <!--<div class="modal-header">-->
+      <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+
+      <!--</div>-->
+      <div class="modal-body">
+
+        <table *ngIf="itemsss" class="container-fluid" class="table table-bordered">
+          <tr>
+            <!--<th>Sno</th>-->
+            <th>Paid Amount</th>
+            <td>{{itemsss.paidAmount}}</td>
+          </tr>
+          <tr>
+            <th>Paid Invoice</th>
+            <td>{{itemsss.paidInvoice}}</td>
+          </tr>
+          <tr>
+            <th>Pending Amount</th>
+            <td>{{itemsss.pendingAmount}}</td>
+          </tr>
+          <tr>
+            <th>Pending Invoice</th>
+            <td>{{itemsss.pendingInvoice}}</td>
+
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade" id="searchResult" role="dialog">
+  <div class="modal-dialog">
+
+
+    <div class="modal-content">
+
+      <div class="modal-body">
+
+        <table *ngIf="searchresult" class="container-fluid" class="table table-bordered">
+          <tr>
+            <th>Sno</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Contact No</th>
+          </tr>
+
+          <tr *ngFor="let item of searchresult  let i=index;">
+
+            <td>{{i+1}}</td>
+            <td (click)="vendorDetails(item.email)" data-toggle="modal"
+                data-target="#myModal">{{item.name}}
+            </td>
+            <td (click)="vendorDetails(item.email)" data-toggle="modal"
+                data-target="#myModal">{{item.email}}
+            </td>
+            <td>{{item.contactNo}}</td>
+
+          </tr>
+
+
+        </table>
+
+      </div>
+    </div>
+  </div>
+</div>

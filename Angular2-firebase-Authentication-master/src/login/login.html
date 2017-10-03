@@ -1,0 +1,26 @@
+<button (click)="twitterlogin()" *ngIf="!logged_in" >
+  <img src="../assets/Twitter.jpg" width="50px" height="auto"/>
+</button>
+<br/>
+
+<div *ngIf="logged_in" #loginPic>
+  <!--<h1>Logged In through {{provider}}</h1>-->
+  <!--<h2>Photo</h2>-->
+  <!--{{user.auth.displayName}}-->
+
+
+  <!--<div class="dropdown">-->
+    <!--<img src="{{user.auth.photoURL}}" alt="{{user.auth.displayName}}" class="img-circle" width="40px" height="auto"/>-->
+    <!--<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">{{user.auth.displayName}}-->
+    <!--</button>-->
+      <!--&lt;!&ndash;<span class="caret"></span></button>&ndash;&gt;-->
+    <!--<ul class="dropdown-menu">-->
+      <!--<li (click)="logout()" *ngIf="logged_in">LogOut</li>-->
+    <!--</ul>-->
+  <!--</div>-->
+
+  <!--<md-button class="md-accent md-raised">Raised and Accent Button</md-button>-->
+  <!--<button md-raised-button (click)="logout()" *ngIf="logged_in"></button>-->
+</div>
+
+<router-outlet></router-outlet>

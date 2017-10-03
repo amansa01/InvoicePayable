@@ -1,0 +1,25 @@
+/*.navbar-nav {*/
+  /*width: 100%;*/
+  /*text-align: center;}*/
+/*.navbar-nav li {*/
+  /*float: none;*/
+  /*display: inline-block;*/
+/*}*/
+
+#companyName{
+  text-align: center;
+  margin-left: 250px;
+
+}
+#footer{
+  color:coral;
+}
+
+#aboutUs{
+
+}
+
+#career{
+border: solid;
+  text-align: center;
+}
